@@ -13,7 +13,7 @@ void print_help() {
 };
 
 void print_data() {
-    int n = 0; // = jakies pole
+    int n = 0; 
     if(!strcasecmp(COMMAND.c_str(), "SORT")) {
         if(!strcasecmp(ARGUMENT.c_str(), "PLATFORM")) {
             n = 0;
