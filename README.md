@@ -1,2 +1,3 @@
 # ColorSQL
-ultra secret repo
+Simple impementation of data base in c++ with colors
+made by KEKER2 & JakeQusha
