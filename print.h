@@ -83,11 +83,11 @@ void colour_selected(string s) {
         extr = view.size()%11;
     if(extr != 0 && iter > view.size() - extr) {
         SetColour((_colour)rainbowcolors[10], BLACK);
-        cout << s << " grad:" << grad << " " << "extr:" << extr<<" " << "i:" << iter;
+        cout << s;
         SetDefaultColour();
     } else {
         SetColour((_colour)rainbowcolors[riter], BLACK);
-        cout << s << " grad:" << grad << " " << "extr:" << extr << "i:" << iter;
+        cout << s;
         SetDefaultColour();
         
     }
