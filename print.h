@@ -8,8 +8,9 @@ int riter = 0;
 void colour_selected(string s);
 void print_platform(string s);
 
-void print_help() {
-
+void print_help() 
+{
+  cout<<"if u want see commands u need to see source code sorry :/";
 };
 
 void print_data() {
