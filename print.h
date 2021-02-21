@@ -27,37 +27,37 @@ void print_data() {
       iter = i;
     switch(n) {
         case 0:
-            cout<< "|"
+            cout<< "["
             << i
-            << "| |";
+            << "] [";
             print_platform(view[i].PLATFORM);
-            cout<< "| |"
+            cout<< "] ["
             << view[i].NAME
-            << "| |"
+            << "] ["
             << view[i].FOLLOWERS
-            << "|\n";
+            << "]\n";
             break;
         case 1:
-            cout<< "|"
+            cout<< "["
             << i
-            << "| |";
+            << "] [";
             print_platform(view[i].PLATFORM);
-            cout<< "| |";
+            cout<< "] [";
             colour_selected(view[i].NAME);
-            cout<< "| |"
+            cout<< "] ["
             << view[i].FOLLOWERS
-            << "|\n";
+            << "]\n";
             break;
         case 2:
-            cout<< "|"
+            cout<< "["
             << i
-            << "| |";
+            << "] [";
             print_platform(view[i].PLATFORM);
-            cout<< "| |"
+            cout<< "] ["
             << view[i].NAME
-            << "| |";
+            << "] [";
             colour_selected(to_string(view[i].FOLLOWERS));
-            cout<< "|\n";
+            cout<< "]\n";
             break;
         }
         
